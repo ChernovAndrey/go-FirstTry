@@ -87,4 +87,5 @@ func main() {
 	http.HandleFunc("/edit/", editHandler)
 	http.HandleFunc("/save/", saveHandler)
 	http.ListenAndServe(":8080", nil)
+	fmt.Println("OK")
 }
